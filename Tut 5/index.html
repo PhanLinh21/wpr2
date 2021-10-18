@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="preconnect" href="http://fonts.gastatic.com">
+    <link href="http://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./exercise.css" />
+
+    <style>
+        body {
+            color: rgba(26, 26, 26, .7);
+            font-family: 'Lora', serif;
+            margin: 0;
+        }
+
+        header {
+            color: white;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./Materials/header.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            font-size: 14px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            font-size: 40px;
+        }
+
+        .button,
+        #details h1,
+        footer address,
+        header h1 strong,
+        #links {
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        #links a {
+            margin: 15px;
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        a.button {
+            padding: 10px 15px;
+            border: 2px solid white;
+            border-radius: 100px;
+        }
+
+        header h1 {
+            font-weight: normal;
+            text-align: center;
+            z-index: 1;
+        }
+
+        header h1 em {
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        header h1 strong {
+            font-size: 68px;
+            letter-spacing: 4px;
+        }
+
+        h1 a.button {
+            border: 0;
+            background-color: rgb(54, 179, 168);
+        }
+
+        .container {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                CS 193x
+            </div>
+            <div id="links">
+                <a>Home</a>
+                <a>About</a>
+                <a>News</a>
+                <a>Read Me</a>
+                <a class="button">Take Action</a>
+            </div>
+        </nav>
+
+        <h1>
+            <em>Sustainability</em><br>
+            <strong>Starts With You</strong><br>
+            <a class="button">Learn More</a>
+        </h1>
+
+</body>
+
+</html>
